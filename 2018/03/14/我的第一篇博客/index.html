@@ -350,7 +350,9 @@ height:50vh;
         <div class="container container-unloaded">
             <main class="main post-page">
     <article class="article-entry">
-        <p>#MrakDown基本语法#<br>1.标题<br>    1）使用=和-标记一级标题和二级标题</p>
+        <p>#MrakDown基本语法#</p>
+<p>###1.标题</p>
+<p>####1）使用=和-标记一级标题和二级标题</p>
 <pre><code>一级标题
 =======
 二级标题
@@ -359,7 +361,7 @@ height:50vh;
 效果
 </code></pre><blockquote>
 <h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2></blockquote>
-<p>2)使用#，可表示1-6级标题</p>
+<p>####2)使用#，可表示1-6级标题</p>
 <pre><code># 一级标题
 ## 二级标题
 ### 三级标题
@@ -368,9 +370,9 @@ height:50vh;
 ###### 六级标题
 </code></pre><blockquote>
 <h1 id="一级标题-1"><a href="#一级标题-1" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题-1"><a href="#二级标题-1" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></blockquote>
-<p>2.段落</p>
+<p>###2.段落</p>
 <p>段落的前后要有空行，所谓的空行是指没有文字内容。若想在段内强制换行的方式是使用两个以上空格加上回车（引用中换行省略回车）。</p>
-<p>3.区块引用</p>
+<p>###3.区块引用</p>
 <p>在段落的每行或者只在第一行使用符号&gt;,还可使用多个嵌套引用，如：</p>
 <pre><code>&gt;区块引用
 &gt;&gt;嵌套引用
@@ -380,14 +382,14 @@ height:50vh;
 <p>嵌套引用</p>
 </blockquote>
 </blockquote>
-<p>4.代码区块</p>
+<p>###4.代码区块</p>
 <p>代码区块的建立是在每行加上4个空格或者一个制表符（如同写代码一样）。如<br>普通段落：</p>
 <p>void main()<br>{<br>printf(“Hello, Markdown.”);<br>}</p>
 <pre><code>void main()
 {
 printf(&quot;Hello, Markdown.&quot;);
 }
-</code></pre><p>5.强调</p>
+</code></pre><p>###5.强调</p>
 <p>在强调内容两侧分别加上*或者_，如：</p>
 <pre><code>*斜体*，_斜体_
 **粗体**，__粗体__
@@ -395,7 +397,7 @@ printf(&quot;Hello, Markdown.&quot;);
 <blockquote>
 <p><em>斜体</em>，_斜体_<br><strong>粗体</strong>，<strong>粗体</strong></p>
 </blockquote>
-<p>6.列表</p>
+<p>###6.列表</p>
 <p>使用·、+、或-标记无序列表，如：</p>
 <pre><code>-（+*） 第一项 
 -（+*） 第二项 
@@ -421,16 +423,16 @@ printf(&quot;Hello, Markdown.&quot;);
 <li>第三项</li>
 </ol>
 </blockquote>
-<p>7.分割线</p>
+<p>###7.分割线</p>
 <p>分割线最常使用就是三个或以上*，还可以使用-和_。</p>
-<p>8.链接</p>
-<p>1)行内式</p>
+<p>###8.链接</p>
+<p>####1)行内式</p>
 <pre><code>[我是一个链接](https:://deuxer.github.io)。
 </code></pre><p>效果</p>
 <blockquote>
 <p><a href="https:://deuxer.github.io" target="_blank" rel="noopener">我是一个链接</a></p>
 </blockquote>
-<p>2)参考式</p>
+<p>####2)参考式</p>
 <pre><code>[我是一个链接][1]
 [我是一个链接][2]
 [1]:https:://deuxer.github.io &quot;Markdown&quot;
@@ -439,16 +441,16 @@ printf(&quot;Hello, Markdown.&quot;);
 <blockquote>
 <p><a href="https:://deuxer.github.io" title="Markdown" target="_blank" rel="noopener">我是一个链接</a><br><a href="https:://deuxer.github.io" title="Markdown" target="_blank" rel="noopener">我是一个链接</a></p>
 </blockquote>
-<p>9 图片<br>添加图片的形式和链接相似，只需在链接的基础上前方加一个！。</p>
-<p>10 反斜杠\<br>相当于反转义作用。使符号成为普通符号。</p>
-<p>11 符号’`’<br>起到标记作用。如：</p>
+<p>###9 图片<br>添加图片的形式和链接相似，只需在链接的基础上前方加一个！。</p>
+<p>###10 反斜杠\<br>相当于反转义作用。使符号成为普通符号。</p>
+<p>###11 符号’`’<br>起到标记作用。如：</p>
 <pre><code>`ctrl+a`
 </code></pre><p>效果：</p>
 <blockquote>
 <p><code>ctrl+a</code></p>
 </blockquote>
 <hr>
-<p>参考链接</p>
+<p>###参考链接</p>
 <blockquote>
 <p><a href="https://github.com/younghz/Markdown" target="_blank" rel="noopener">https://github.com/younghz/Markdown</a><br><a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">https://www.appinn.com/markdown/</a></p>
 </blockquote>
